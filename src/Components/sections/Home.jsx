@@ -3,17 +3,20 @@ import { RevealOnScroll } from "../Common/RevealOnScroll";
 export const Home = () => {
   return (
     <section
-      id="home"
-      className="min-h-screen flex items-center justify-center relative"
+      id='home'
+      className='min-h-screen flex items-center justify-center relative'
     >
       <RevealOnScroll>
-        <div className="text-center z-10 px-4">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent leading-right">
+        <div className='text-center z-10 px-4'>
+          <h1 className='text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white to-gray-500 bg-clip-text text-transparent leading-right'>
             Hi, I'm Mohammad Amin
           </h1>
 
-          <p className="tex-gray-400 text-lg mb-8 max-w-lg mx-auto">
-          I’m a UI designer and creative front-end developer with a passion for crafting visually stunning and user-friendly web experiences. With over 4 years of experience in video editing and content creation, I bring a unique blend of technical expertise and creative flair to every project I work on.
+          <p className='tex-gray-400 text-lg mb-8 max-w-lg mx-auto'>
+            I’m a UI designer and creative front-end developer with a passion for crafting
+            visually stunning and user-friendly web experiences. With over 4 years of
+            experience in video editing and content creation, I bring a unique blend of
+            technical expertise and creative flair to every project I work on.
           </p>
           {/* <div className="flex justify-center space-x-4">
             <a
