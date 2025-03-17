@@ -8,9 +8,9 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
     <nav className="fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg">
       <div className="max-w-5xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <a href="#home" className="font-mono text-xl font-bold text-white">
+          <a href="https://github.com/MDJAmin" className="font-mono text-xl font-bold text-white">
             {" "}
-            Amin<span className="text-gray">.AOI</span>{" "}
+            MDJ<span className="text-blue-100">Amin</span>{" "}
           </a>
 
           <div
@@ -35,7 +35,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               {" "}
               About{" "}
             </a>
-            <a
+            {/* <a
               href="#projects"
               className="text-gray-300 hover:text-white transition-colors"
             >
@@ -48,7 +48,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             >
               {" "}
               Contact{" "}
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
