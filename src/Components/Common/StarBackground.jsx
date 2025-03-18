@@ -1,5 +1,3 @@
-"use client";
-
 import React, { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Points, PointMaterial, Preload } from "@react-three/drei";
@@ -21,7 +19,7 @@ const StarBackground = (props) => {
       <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
         <PointMaterial
           transparent
-          color="#fff"
+          color="#ffffff"
           size={0.002}
           sizeAttenuation={true}
           depthWrite={false}

@@ -4,6 +4,10 @@
   display: none;
 }
 
+*{
+  user-select: none;
+}
+
 html,
 body {
   margin: 0;
