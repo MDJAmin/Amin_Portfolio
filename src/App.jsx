@@ -3,12 +3,13 @@ import "./App.css";
 import { LoadingScreen } from "./Components/Common/LoadingScreen";
 import { Navbar } from "./Components/Common/Navbar";
 import { MobileMenu } from "./Components/Common/MobileMenu";
-import { Home } from "./components/sections/Home";
-import { About } from "./components/sections/About";
-import { Projects } from "./components/sections/Projects";
+import { Home } from "./Components/Sections/Home";
+import { About } from "./Components/Sections/About";
+import { Projects } from "./Components/Sections/Projects";
 import "./index.css";
-import { Contact } from "./Components/sections/Contact";
+import { Contact } from "./Components/Sections/Contact";
 import StarsCanvas from "./Components/Common/StarBackground";
+import Footer from "./Components/Sections/Footer";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -35,6 +36,7 @@ function App() {
         <About />
         <Projects />
         <Contact />
+        <Footer/>
       </div>
     </>
   );
