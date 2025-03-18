@@ -1,4 +1,5 @@
 import { RevealOnScroll } from "../Common/RevealOnScroll";
+import { IoIosArrowForward } from "react-icons/io";
 
 export const Projects = () => {
   return (
@@ -48,9 +49,10 @@ export const Projects = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                   href='https://github.com/MDJAmin/razer-mern-shop'
-                  className='text-gray-300 hover:text-white transition-colors my-4'
+                  className='flex text-gray-300 hover:text-white transition-colors my-4'
                 >
-                  View Project →
+                  View Project
+                  <IoIosArrowForward className='mt-[5px]' />
                 </a>
               </div>
             </div>
@@ -86,9 +88,9 @@ export const Projects = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                   href='https://mdjamin.github.io/Game_Zone/'
-                  className='text-gray-300 hover:text-white transition-colors my-4'
+                  className='flex text-gray-300 hover:text-white transition-colors my-4'
                 >
-                  View Demo →
+                  View Demo <IoIosArrowForward className='mt-[5px]' />
                 </a>
               </div>
             </div>
@@ -123,9 +125,9 @@ export const Projects = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                   href='https://mdjamin.github.io/Elvora/'
-                  className='text-gray-300 hover:text-white transition-colors my-4'
+                  className='flex text-gray-300 hover:text-white transition-colors my-4'
                 >
-                  View Project →
+                  View Project <IoIosArrowForward className='mt-[5px]' />
                 </a>
               </div>
             </div>
@@ -162,9 +164,9 @@ export const Projects = () => {
                   target='_blank'
                   rel='noopener noreferrer'
                   href='https://mdjamin.github.io/Gorillas_Game/'
-                  className='text-gray-300 hover:text-white transition-colors my-4'
+                  className='flex text-gray-300 hover:text-white transition-colors my-4'
                 >
-                  Play →
+                  Play <IoIosArrowForward className='mt-[5px]' />
                 </a>
               </div>
             </div>
