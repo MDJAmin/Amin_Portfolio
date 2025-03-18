@@ -97,7 +97,7 @@ export const About = () => {
               technologies and innovative solutions.
             </p>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
+            <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
               {/* Frontend Skills */}
               <div className='rounded-xl p-6 hover:-translate-y-1 transition-all'>
                 <h3 className='text-xl font-bold mb-4'>Frontend</h3>
@@ -203,7 +203,7 @@ export const About = () => {
               </div>
             </div>
           </div>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-8'>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-6'>
             <div className='p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all'>
               <h3 className='text-xl font-bold mb-4'> 👨🏻‍🎓 Education </h3>
               <ul className='list-disc list-inside text-gray-300 space-y-2'>
@@ -214,7 +214,6 @@ export const About = () => {
                     bachelor's degree at Azad University.
                   </strong>
                 </li>
-                <br />
                 <li>
                   <strong> Relevant Coursework : </strong> Web Development (FrontEnd &
                   BackEnd), <br /> Ui Design, Editing...
@@ -233,7 +232,6 @@ export const About = () => {
                     Developed and maintained the front-end of the company's internal project.
                   </p>
                 </div>
-                <br />
                 <div>
                   <h4 className='font-semibold'> Work with Startups & free lancing (2021) </h4>
                   <p>
