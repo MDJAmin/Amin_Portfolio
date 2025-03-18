@@ -11,7 +11,7 @@ export const Home = () => {
             Hi, I'm Amin
           </h1>
 
-          <p className='tex-gray-400 text-lg mb-8 max-w-lg mx-auto'>
+          <p className='tex-gray-400 mb-8 max-w-lg mx-auto'>
             I’m a UI designer and creative front-end developer with a passion for crafting
             visually stunning and user-friendly web experiences. With over 4 years of
             experience in video editing and content creation, I bring a unique blend of

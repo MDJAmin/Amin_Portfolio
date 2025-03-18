@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
-*{
-  user-select: none;
-}
-
 ::-webkit-scrollbar {
   display: none;
+}
+
+*{
+  font-family: "Cedarville Cursive", cursive;
 }
 
 html,
