@@ -21,7 +21,18 @@ export const Projects = () => {
                 dynamic shopping experience. The platform includes…
               </p>
               <div className='flex flex-wrap gap-2 mb-4'>
-                {["React", "Node.js", "JSX", "Tailwind", "ThreeJs","I18n","Atropos","ChartJs","GSAP","Router dom"].map((tech, key) => (
+                {[
+                  "React",
+                  "Node.js",
+                  "JSX",
+                  "Tailwind",
+                  "ThreeJs",
+                  "I18n",
+                  "Atropos",
+                  "ChartJs",
+                  "GSAP",
+                  "Router dom",
+                ].map((tech, key) => (
                   <span
                     key={key}
                     className='bg-blue-500/10 text-white py-1 px-3 rounded-full text-sm hover:bg-gray-700 cursor-pointer 
@@ -34,8 +45,8 @@ export const Projects = () => {
 
               <div className='flex justify-between items-center'>
                 <a
-                                      target='_blank'
-    rel='noopener noreferrer'
+                  target='_blank'
+                  rel='noopener noreferrer'
                   href='https://github.com/MDJAmin/razer-mern-shop'
                   className='text-gray-300 hover:text-white transition-colors my-4'
                 >
@@ -72,8 +83,8 @@ export const Projects = () => {
               </div>
               <div className='flex justify-between items-center'>
                 <a
-                                      target='_blank'
-    rel='noopener noreferrer'
+                  target='_blank'
+                  rel='noopener noreferrer'
                   href='https://mdjamin.github.io/Game_Zone/'
                   className='text-gray-300 hover:text-white transition-colors my-4'
                 >
@@ -109,8 +120,8 @@ export const Projects = () => {
               </div>
               <div className='flex justify-between items-center'>
                 <a
-                                      target='_blank'
-    rel='noopener noreferrer'
+                  target='_blank'
+                  rel='noopener noreferrer'
                   href='https://mdjamin.github.io/Elvora/'
                   className='text-gray-300 hover:text-white transition-colors my-4'
                 >
@@ -148,9 +159,9 @@ export const Projects = () => {
               </div>
               <div className='flex justify-between items-center '>
                 <a
-                      target='_blank'
-                      rel='noopener noreferrer'
-                      href='https://mdjamin.github.io/Gorillas_Game/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  href='https://mdjamin.github.io/Gorillas_Game/'
                   className='text-gray-300 hover:text-white transition-colors my-4'
                 >
                   Play →

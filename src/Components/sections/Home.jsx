@@ -1,5 +1,4 @@
 import { RevealOnScroll } from "../Common/RevealOnScroll";
-
 export const Home = () => {
   return (
     <section
@@ -18,8 +17,8 @@ export const Home = () => {
             experience in video editing and content creation, I bring a unique blend of
             technical expertise and creative flair to every project I work on.
           </p>
-          
-          {/* <div className="flex justify-center space-x-4">
+
+          <div className="flex justify-center space-x-4">
             <a
               href="#projects"
               className="bg-gray-300 text-black py-3 px-6 transition-all rounded font-medium relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)] hover:bg-white"
@@ -34,7 +33,7 @@ export const Home = () => {
             >
               Contact Me
             </a>
-          </div> */}
+          </div>
 
         </div>
       </RevealOnScroll>
