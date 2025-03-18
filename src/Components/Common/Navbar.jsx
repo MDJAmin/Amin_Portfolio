@@ -1,19 +1,21 @@
 import { useEffect } from "react";
-
+import { FiGithub } from "react-icons/fi";
 export const Navbar = ({ menuOpen, setMenuOpen }) => {
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
   }, [menuOpen]);
+
   return (
     <nav className='fixed top-0 w-full z-40 bg-[rgba(10, 10, 10, 0.8)] backdrop-blur-lg border-b border-white/10 shadow-lg'>
       <div className='max-w-5xl mx-auto px-4'>
         <div className='flex justify-between items-center h-16'>
           <a
             href='https://github.com/MDJAmin'
-            className='font-mono text-xl font-bold text-white'
+            className='flex gap-0.5 font-mono text-xl font-bold text-white'
+            rel='noopener noreferrer'
+            target='_blank' 
           >
-            {" "}
-            MDJ<span className='text-blue-100'>Amin</span>{" "}
+          <FiGithub className="me-2 mt-1" />  MDJ<span className='text-blue-100 transition-colors hover:text-white'>Amin</span>
           </a>
 
           <div
@@ -37,17 +39,17 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               About
             </a>
             <a
-              href="#projects"
-              className="text-gray-300 hover:text-white transition-colors"
+              href='#projects'
+              className='text-gray-300 hover:text-white transition-colors'
             >
               Projects
             </a>
-            {/* <a
-              href="#contact"
-              className="text-gray-300 hover:text-white transition-colors-"
+            <a
+              href='#contact'
+              className='text-gray-300 hover:text-white transition-colors-'
             >
               Contact
-            </a> */}
+            </a>
           </div>
         </div>
       </div>
