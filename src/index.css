@@ -4,24 +4,21 @@
   display: none;
 }
 
-.cursive{
+.cursive {
   font-family: "Cedarville Cursive", cursive;
 }
 
-.text{
+.text {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-.code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace !important;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
-  background: #0a0a0a;
   color: #f3f4f6;
+  background: #0a0a0a;
+  scroll-behavior: smooth;
 }
 
 @layer utilities {
@@ -63,4 +60,3 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
-

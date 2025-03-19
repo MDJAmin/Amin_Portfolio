@@ -1,12 +1,11 @@
+import "./index.css";
 import { useState } from "react";
-import "./App.css";
 import { LoadingScreen } from "./Components/Common/LoadingScreen";
 import { Navbar } from "./Components/Common/Navbar";
 import { MobileMenu } from "./Components/Common/MobileMenu";
 import { Home } from "./Components/Sections/Home";
 import { About } from "./Components/Sections/About";
 import { Projects } from "./Components/Sections/Projects";
-import "./index.css";
 import { Contact } from "./Components/Sections/Contact";
 import StarsCanvas from "./Components/Common/StarBackground";
 import Footer from "./Components/Sections/Footer";
