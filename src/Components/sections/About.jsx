@@ -1,9 +1,6 @@
-import { useState } from "react";
 import { RevealOnScroll } from "../Common/RevealOnScroll";
 
 export const About = () => {
-  const [hoveredSkill, setHoveredSkill] = useState(null);
-
   const sections = [
     {
       title: "Frontend",
@@ -62,22 +59,15 @@ export const About = () => {
               {sections.map((section, index) => (
                 <div key={index} className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                   <h3 className="text-xl font-bold mb-4">{section.title}</h3>
-                  <div className="flex flex-wrap gap-2 relative">
+                  <div className="flex flex-wrap gap-2">
                     {section.skills.map((skill, key) => (
-                      <div key={key} className="relative">
-                        <span
-                          onMouseEnter={() => setHoveredSkill(skill)}
-                          onMouseLeave={() => setHoveredSkill(null)}
-                          className="bg-blue-500/10 text-white py-1 px-3 rounded-full text-sm hover:bg-gray-700 cursor-pointer hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
-                        >
-                          {skill.name}
-                        </span>
-                        {hoveredSkill?.name === skill.name && (
-                          <div className="absolute left-full ml-2 top-0 bg-white text-black p-2 rounded-lg shadow-lg w-48 z-10">
-                            {skill.description}
-                          </div>
-                        )}
-                      </div>
+                      <span
+                        key={key}
+                        className="bg-blue-500/10 text-white py-1 px-3 rounded-full text-sm hover:bg-gray-700 cursor-pointer hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                        title={skill.description}
+                      >
+                        {skill.name}
+                      </span>
                     ))}
                   </div>
                 </div>
