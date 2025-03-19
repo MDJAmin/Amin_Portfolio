@@ -108,11 +108,11 @@ export const Contact = () => {
   return (
     <section
       id='contact'
-      className='min-h-screen flex items-center justify-center py-20'
+      className='text min-h-screen flex items-center justify-center py-20'
     >
       <RevealOnScroll>
         <div className='px-4 w-full min-w-[300px] md:w-[500px] sm:w-2/3 p-6'>
-          <h2 className='text-3xl font-bold mb-8 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent text-center'>
+          <h2 className='cursive text-3xl font-bold mb-8 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent text-center'>
             Get In Touch
           </h2>
 
@@ -129,7 +129,7 @@ export const Contact = () => {
                 required
                 value={formData.name}
                 className='w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-gray-300 focus:bg-blue-500/5'
-                placeholder='Name...'
+                placeholder='Your Name'
                 onChange={handleChange}
                 disabled={quotaExhausted}
               />
@@ -144,7 +144,7 @@ export const Contact = () => {
                 required
                 value={formData.email}
                 className='w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-gray-300 focus:bg-blue-500/5'
-                placeholder='example@gmail.com'
+                placeholder='Your Email'
                 onChange={handleChange}
                 disabled={quotaExhausted}
               />
@@ -159,7 +159,7 @@ export const Contact = () => {
                 required
                 value={formData.title}
                 className='w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-gray-300 focus:bg-blue-500/5'
-                placeholder='Title...'
+                placeholder='Title For Your Massage'
                 onChange={handleChange}
                 disabled={quotaExhausted}
               />
@@ -174,7 +174,7 @@ export const Contact = () => {
                 rows={5}
                 value={formData.message}
                 className='w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-gray-300 focus:bg-blue-500/5 min-h-14'
-                placeholder='Your Message...'
+                placeholder='Your Message'
                 onChange={handleChange}
                 disabled={quotaExhausted}
               />
@@ -182,7 +182,7 @@ export const Contact = () => {
 
             <button
               type='submit'
-              className='w-full bg-gray-100 text-black py-3 px-6 rounded font-medium relative overflow-hidden hover:bg-gray-200 hover:text-black transition-all cursor-pointer'
+              className='cursive w-full bg-gray-100 text-black py-3 px-6 rounded font-medium relative overflow-hidden hover:bg-gray-200 hover:text-black transition-all cursor-pointer'
               disabled={isSending || quotaExhausted}
             >
               {isSending ? "Sending..." : "Send Message"}

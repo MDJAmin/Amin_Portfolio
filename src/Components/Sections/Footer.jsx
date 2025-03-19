@@ -5,7 +5,7 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <section className="text-white py-6 text-center">
+    <section className="cursive text-white py-6 text-center">
       <div className="flex justify-center space-x-6 mb-4">
         <a href="https://www.youtube.com/c/DARKLORDCDL" target="_blank" rel="noopener noreferrer" className="text-text-white transition-opacity opacity-75 hover:text-white hover:opacity-100 text-2xl z-10">
           <FaYoutube />

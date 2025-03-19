@@ -1,7 +1,7 @@
 export const MobileMenu = ({ menuOpen, setMenuOpen }) => {
   return (
     <div
-      className={`fixed top-0 right-0 w-full h-screen bg-black z-40 flex flex-col items-center justify-center
+      className={`cursive fixed top-0 right-0 w-full h-screen bg-black z-40 flex flex-col items-center justify-center
                      transition-all duration-300 ease-in-out transform
                      ${
                        menuOpen
