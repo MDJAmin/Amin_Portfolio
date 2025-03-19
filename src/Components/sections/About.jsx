@@ -1,49 +1,7 @@
 import { RevealOnScroll } from "../Common/RevealOnScroll";
+import { skillSections } from "../Constant";
 
 export const About = () => {
-  const sections = [
-    {
-      title: "Frontend",
-      skills: [
-        { name: "React", description: "A JavaScript library for building user interfaces." },
-        { name: "TypeScript", description: "A typed superset of JavaScript for better tooling and scalability." },
-        { name: "TailwindCSS", description: "A utility-first CSS framework for rapid UI development." },
-        { name: "MUI", description: "A popular React UI framework for building responsive designs." },
-        { name: "ThreeJs", description: "A 3D library for creating and rendering 3D graphics in the browser." },
-        { name: "Gsap", description: "A JavaScript animation library for high-performance animations." },
-      ],
-    },
-    {
-      title: "Backend",
-      skills: [
-        { name: "Node.js", description: "A runtime environment for building server-side applications with JavaScript." },
-        { name: "Python", description: "A versatile programming language for backend development and data analysis." },
-        { name: "AWS", description: "Amazon Web Services for cloud computing and scalable infrastructure." },
-        { name: "MongoDB", description: "A NoSQL database for handling unstructured data." },
-        { name: "GraphQL", description: "A query language for APIs and runtime for executing those queries." },
-      ],
-    },
-    {
-      title: "Design",
-      skills: [
-        { name: "Adobe Pro", description: "Professional tools for graphic design and video editing." },
-        { name: "Figma", description: "A collaborative design tool for UI/UX prototyping." },
-        { name: "Blender", description: "An open-source 3D creation suite for modeling and animation." },
-        { name: "AE", description: "Adobe After Effects for motion graphics and visual effects." },
-        { name: "AI", description: "Adobe Illustrator for vector graphics and illustrations." },
-      ],
-    },
-    {
-      title: "Other",
-      skills: [
-        { name: "Model Optimization", description: "Techniques for optimizing machine learning models." },
-        { name: "DQN", description: "Deep Q-Networks for reinforcement learning." },
-        { name: "Computer Vision", description: "Techniques for enabling machines to interpret visual data." },
-        { name: "NLP", description: "Natural Language Processing for text analysis and understanding." },
-      ],
-    },
-  ];
-
   return (
     <section id="about" className="text min-h-screen flex items-center justify-center py-20">
       <RevealOnScroll>
@@ -56,14 +14,14 @@ export const About = () => {
               A passionate and creative developer with a strong expertise in cutting-edge technologies and innovative solutions.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {sections.map((section, index) => (
+              {skillSections.map((skillSections, index) => (
                 <div key={index} className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                  <h3 className="text-xl font-bold mb-4">{section.title}</h3>
+                  <h3 className="text-xl font-bold mb-4">{skillSections.title}</h3>
                   <div className="flex flex-wrap gap-2">
-                    {section.skills.map((skill, key) => (
+                    {skillSections.skills.map((skill, key) => (
                       <span
                         key={key}
-                        className="bg-blue-500/10 text-white py-1 px-3 rounded-full text-sm hover:bg-gray-700 cursor-pointer hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                        className="bg-blue-500/10 text-white py-1 px-3 rounded-full text-sm hover:bg-gray-700 cursor-pointer hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all"
                         title={skill.description}
                       >
                         {skill.name}
