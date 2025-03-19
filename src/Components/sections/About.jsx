@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../Common/RevealOnScroll";
-import { skillSections } from "../Constant";
+import { skillSections } from "../../Constant";
 
 export const About = () => {
   return (

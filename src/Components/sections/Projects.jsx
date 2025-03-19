@@ -1,6 +1,6 @@
 import { IoIosArrowForward } from "react-icons/io";
 import { RevealOnScroll } from "../Common/RevealOnScroll";
-import { techDescriptions } from "../Constant";
+import { techDescriptions } from "../../Constant";
 
 export const Projects = () => {
   return (
