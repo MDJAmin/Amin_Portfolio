@@ -32,7 +32,6 @@ const skillSections = [
             { name: "TailwindCSS", description: "A utility-first CSS framework for rapid UI development." },
             { name: "MUI", description: "A popular React UI framework for building responsive designs." },
             { name: "Gsap", description: "A JavaScript animation library for high-performance animations." },
-            { name: "GLSL", description: "Techniques for optimizing machine learning models." },
         ],
     },
     {
@@ -55,7 +54,8 @@ const skillSections = [
     {
         title: "Other",
         skills: [
-            { name: "C++", description: "Techniques for optimizing machine learning models." },
+            { name: "C++", description:"A high-performance programming language." },
+            { name: "GLSL", description:"A high-level, C-like programming language for graphics processing." },
             { name: "Python", description: "A versatile programming language for backend development and data analysis." },
             { name: "Model Optimization", description: "Techniques for optimizing machine learning models." },
             { name: "DQN", description: "Deep Q-Networks for reinforcement learning." },
