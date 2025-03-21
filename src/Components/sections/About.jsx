@@ -13,7 +13,7 @@ export const About = () => {
             About Me
           </h2>
           <div className='rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all'>
-            <p className='text-gray-300 mb-6'>
+            <p className='text-gray-300 mb-6 text-sm'>
               A passionate and creative developer with a strong expertise in cutting-edge
               technologies and innovative solutions.
             </p>
@@ -21,7 +21,7 @@ export const About = () => {
               {skillSections.map((skillSections, index) => (
                 <div
                   key={index}
-                  className='rounded-xl p-6 hover:-translate-y-1 transition-all'
+                  className='rounded-xl p-2 hover:-translate-y-1 transition-all'
                 >
                   <h3 className='text-xl font-bold mb-4'>{skillSections.title}</h3>
                   <div className='flex flex-wrap gap-2'>
@@ -39,7 +39,7 @@ export const About = () => {
               ))}
             </div>
           </div>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-6'>
+          <div className='grid grid-cols-1 md:grid-cols-2 gap-6 mt-3'>
             <div className='p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all'>
               <h3 className='text-xl font-bold mb-4'> 👨🏻‍🎓 Education </h3>
               <ul className='list-disc list-inside text-gray-300 space-y-2'>
