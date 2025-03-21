@@ -39,21 +39,21 @@ export const Projects = () => {
                 description:
                   "A sleek e-commerce SPA website with an admin panel for managing games and a visually stunning homepage.",
                 techStack: ["Next.js", "Prisma", "TSX", "GSAP", "Atropos", "Spline"],
-                link: "https://mdjamin.github.io/Game_Zone/",
-                linkText: "View Demo",
-              },
-              {
-                title: "Elvora",
-                description: "Multi-language website within a single day!",
-                techStack: ["React", "JSX", "Tailwind", "I18n"],
-                link: "https://mdjamin.github.io/Elvora/",
+                link: "https://github.com/MDJAmin/GameZone",
                 linkText: "View Project",
               },
               {
-                title: "Gorillas Game",
-                description: "A fun, idea-inspired game that supports multiplayer gameplay.",
+                title: "Elvora",
+                description: "Multi-language (FA, EN, AR) website within a single day!",
+                techStack: ["React", "JSX", "Tailwind", "I18n"],
+                link: "https://mdjamin.github.io/Elvora/",
+                linkText: "View",
+              },
+              {
+                title: "Snake Game",
+                description: "A fun, idea-inspired game that supports on any device.",
                 techStack: ["HTML", "CSS", "JS"],
-                link: "https://mdjamin.github.io/Gorillas_Game/",
+                link: "https://mdjamin.github.io/Snake/",
                 linkText: "Play",
               },
             ].map((project, index) => (
