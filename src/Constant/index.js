@@ -28,20 +28,18 @@ const skillSections = [
         skills: [
             { name: "React", description: "A JavaScript library for building user interfaces." },
             { name: "TypeScript", description: "A typed superset of JavaScript for better tooling and scalability." },
+            { name: "ThreeJs", description: "A 3D library for creating and rendering 3D graphics in the browser." },
             { name: "TailwindCSS", description: "A utility-first CSS framework for rapid UI development." },
             { name: "MUI", description: "A popular React UI framework for building responsive designs." },
-            { name: "ThreeJs", description: "A 3D library for creating and rendering 3D graphics in the browser." },
             { name: "Gsap", description: "A JavaScript animation library for high-performance animations." },
+            { name: "GLSL", description: "Techniques for optimizing machine learning models." },
         ],
     },
     {
         title: "Backend",
         skills: [
             { name: "Node.js", description: "A runtime environment for building server-side applications with JavaScript." },
-            { name: "Python", description: "A versatile programming language for backend development and data analysis." },
-            { name: "AWS", description: "Amazon Web Services for cloud computing and scalable infrastructure." },
             { name: "MongoDB", description: "A NoSQL database for handling unstructured data." },
-            { name: "GraphQL", description: "A query language for APIs and runtime for executing those queries." },
         ],
     },
     {
@@ -57,6 +55,8 @@ const skillSections = [
     {
         title: "Other",
         skills: [
+            { name: "C++", description: "Techniques for optimizing machine learning models." },
+            { name: "Python", description: "A versatile programming language for backend development and data analysis." },
             { name: "Model Optimization", description: "Techniques for optimizing machine learning models." },
             { name: "DQN", description: "Deep Q-Networks for reinforcement learning." },
             { name: "Computer Vision", description: "Techniques for enabling machines to interpret visual data." },

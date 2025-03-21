@@ -11,11 +11,11 @@ export const Home = () => {
             Hi, I'm Amin
           </h1>
 
-          <p className='text tex-gray-400 mb-8 max-w-lg mx-auto'>
-            I’m a UI designer and creative front-end developer with a passion for crafting
-            visually stunning and user-friendly web experiences. With over 4 years of
-            experience in video editing and content creation, I bring a unique blend of
-            technical expertise and creative flair to every project I work on.
+          <p className='text-[18px] tex-gray-400 mb-8 max-w-lg mx-auto'>
+            A creative front-end developer and UI designer with a passion for crafting visually
+            stunning and user-friendly web experiences. With over 4 years of experience in
+            content creation and video editing,
+            <strong> I just do my best at anything i do ~</strong>
           </p>
 
           <div className='flex justify-center space-x-4'>
