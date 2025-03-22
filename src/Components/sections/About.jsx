@@ -61,9 +61,7 @@ export const About = () => {
               <h3 className='text-xl font-bold mb-4'> 💼 Work Experience </h3>
               <div className='space-y-4 text-gray-300'>
                 <div>
-                  <h4 className='font-semibold'>
-                    FrontEnd Developer at Eghamat24 (2024 - Present)
-                  </h4>
+                  <h4 className='font-semibold'>FrontEnd Developer at Eghamat24 (2024)</h4>
                   <p>
                     Developed and maintained the front-end of the company's internal project.
                   </p>
