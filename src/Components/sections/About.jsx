@@ -70,10 +70,7 @@ export const About = () => {
                 </div>
                 <div>
                   <h4 className='font-semibold'> Work with Startups & Freelancing (2021) </h4>
-                  <p>
-                    Worked with many clients and startups such as Green Web and various
-                    influencers.
-                  </p>
+                  <p>Worked with many clients and startups and various influencers.</p>
                 </div>
               </div>
             </div>
