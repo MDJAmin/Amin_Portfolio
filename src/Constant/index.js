@@ -39,6 +39,8 @@ const skillSections = [
         skills: [
             { name: "Node.js", description: "A runtime environment for building server-side applications with JavaScript." },
             { name: "MongoDB", description: "A NoSQL database for handling unstructured data." },
+            { name: "GraphQL", description: "A query language for APIs and runtime for executing those queries." },
+            { name: "Express", description: "A lightweight Node.js web framework for building web applications."},
         ],
     },
     {
