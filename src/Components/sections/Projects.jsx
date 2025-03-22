@@ -29,7 +29,7 @@ export const Projects = () => {
                   "Atropos",
                   "ChartJs",
                   "GSAP",
-                  "Router dom",
+                  "React Router",
                 ],
                 link: "https://github.com/MDJAmin/razer-mern-shop",
                 linkText: "View Project",
