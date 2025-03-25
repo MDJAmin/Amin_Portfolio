@@ -1,14 +1,14 @@
 import "./index.css";
 import { useState } from "react";
-import { LoadingScreen } from "./Components/Common/LoadingScreen";
-import { Navbar } from "./Components/Common/Navbar";
-import { MobileMenu } from "./Components/Common/MobileMenu";
-import { Home } from "./Components/Sections/Home";
-import { About } from "./Components/Sections/About";
-import { Projects } from "./Components/Sections/Projects";
-import { Contact } from "./Components/Sections/Contact";
-import StarsCanvas from "./Components/Common/StarBackground";
+import { Hero } from "./Components/Sections/Hero";
 import Footer from "./Components/Sections/Footer";
+import { About } from "./Components/Sections/About";
+import { Navbar } from "./Components/Sections/Navbar";
+import { Contact } from "./Components/Sections/Contact";
+import { Projects } from "./Components/Sections/Projects";
+import { MobileMenu } from "./Components/Common/MobileMenu";
+import StarsCanvas from "./Components/Common/StarBackground";
+import { LoadingScreen } from "./Components/Common/LoadingScreen";
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -31,7 +31,7 @@ function App() {
           menuOpen={menuOpen}
           setMenuOpen={setMenuOpen}
         />
-        <Home />
+        <Hero />
         <About />
         <Projects />
         <Contact />

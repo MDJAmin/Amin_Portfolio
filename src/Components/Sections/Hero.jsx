@@ -1,5 +1,5 @@
 import { RevealOnScroll } from "../Common/RevealOnScroll";
-export const Home = () => {
+export const Hero = () => {
   return (
     <section
       id='home'
@@ -15,7 +15,7 @@ export const Home = () => {
             A creative front-end developer and UI designer with a passion for crafting visually
             stunning and user-friendly web experiences. With over 4 years of experience in
             content creation and video editing,
-            <strong> I just do my best at anything i do ~</strong>
+            <strong> I give my best in everything I do ~</strong>
           </p>
 
           <div className='flex justify-center space-x-4'>
