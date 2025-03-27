@@ -15,6 +15,7 @@
   "dependencies": {
     "@react-three/drei": "^10.0.4",
     "@react-three/fiber": "^9.1.0",
+    "@studio-freight/lenis": "^1.0.42",
     "@tailwindcss/vite": "^4.0.14",
     "emailjs-com": "^3.2.0",
     "maath": "^0.10.8",

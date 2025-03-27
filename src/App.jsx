@@ -1,5 +1,6 @@
 import "./index.css";
 import { useState } from "react";
+import useLenis from "./Utils/useLenis";
 import { Hero } from "./Components/Sections/Hero";
 import Footer from "./Components/Sections/Footer";
 import { About } from "./Components/Sections/About";
@@ -11,6 +12,7 @@ import StarsCanvas from "./Components/Common/StarBackground";
 import { LoadingScreen } from "./Components/Common/LoadingScreen";
 
 function App() {
+  useLenis();
   const [isLoaded, setIsLoaded] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
 

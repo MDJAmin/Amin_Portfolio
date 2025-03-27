@@ -31,7 +31,6 @@ export const Projects = () => {
                   "GSAP",
                   "React Router",
                 ],
-                link: "https://github.com/MDJAmin",
                 linkText: "In Progress...",
               },
               {
@@ -81,8 +80,10 @@ export const Projects = () => {
                     href={project.link}
                     className='flex text-gray-300 hover:text-white transition-colors my-4'
                   >
-                        {project.linkText}
-                        {project.linkText !== "In Progress..." && <IoIosArrowForward className='mt-[5px]' />}
+                    {project.linkText}
+                    {project.linkText !== "In Progress..." && (
+                      <IoIosArrowForward className='mt-[5px]' />
+                    )}
                   </a>
                 </div>
               </div>
