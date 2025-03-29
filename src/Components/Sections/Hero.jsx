@@ -12,10 +12,8 @@ export const Hero = () => {
           </h1>
 
           <p className='text-[18px] tex-gray-400 mb-8 max-w-lg mx-auto'>
-            A creative front-end developer and UI designer with a passion for crafting visually
-            stunning and user-friendly web experiences. With over 4 years of experience in
-            content creation and video editing,
-            <strong> I give my best in everything I do ~</strong>
+          A creative front-end developer and UI designer with a passion for crafting visually stunning and user-friendly web experiences. With over four years of experience in content creation and video editing,
+            <strong>  I always strive to give my best in everything I do ~</strong>
           </p>
 
           <div className='flex justify-center space-x-4'>
