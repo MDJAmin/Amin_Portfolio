@@ -16,10 +16,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
             target='_blank'
           >
             <FiGithub className='me-2 mt-1 opacity-80 hover:opacity-100 transition-opacity' />{" "}
-            MDJ
-            <span className='text-blue-100 transition-all hover:text-white hover:ml-1'>
-              Amin
-            </span>
+            MDJAmin
           </a>
 
           <div
