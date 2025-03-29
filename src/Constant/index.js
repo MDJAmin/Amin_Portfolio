@@ -1,5 +1,3 @@
-// used in Projects section
-
 const techDescriptions = {
     "React": "A JavaScript library for building user interfaces.",
     "Node.js": "A runtime environment that allows running JavaScript on the server.",
@@ -20,11 +18,10 @@ const techDescriptions = {
     "JS": "JavaScript, a programming language used to create interactive web experiences."
 };
 
-
-// used in about section
 const skillSections = [
     {
         title: "Frontend",
+        cubeShape: 4,
         skills: [
             { name: "React", description: "A JavaScript library for building user interfaces." },
             { name: "TypeScript", description: "A typed superset of JavaScript for better tooling and scalability." },
@@ -36,6 +33,7 @@ const skillSections = [
     },
     {
         title: "Backend",
+        cubeShape: 3,
         skills: [
             { name: "Node.js", description: "A runtime environment for building server-side applications with JavaScript." },
             { name: "MongoDB", description: "A NoSQL database for handling unstructured data." },
@@ -48,6 +46,7 @@ const skillSections = [
     },
     {
         title: "Design",
+        cubeShape: 4.5,
         skills: [
             { name: "Premiere Pro", description: "Professional tools for graphic design and video editing." },
             { name: "Figma", description: "A collaborative design tool for UI/UX prototyping." },
@@ -59,6 +58,7 @@ const skillSections = [
     },
     {
         title: "Other",
+        cubeShape: 4,
         skills: [
             { name: "C++", description: "A high-performance programming language." },
             { name: "GLSL", description: "A high-level, C-like programming language for graphics processing." },

@@ -18,14 +18,31 @@ export const About = () => {
               technologies and innovative solutions.
             </p>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
-              {skillSections.map((skillSections, index) => (
+              {skillSections.map((section, index) => (
                 <div
                   key={index}
                   className='rounded-xl p-2 hover:-translate-y-1 transition-all'
                 >
-                  <h3 className='text-xl font-bold mb-4'>{skillSections.title}</h3>
+                  <div className='flex gap-2'>
+                    <h3 className='text-xl font-bold mb-4'>{section.title}</h3>
+                    <div className='flex gap-1 mt-2'>
+                      {[...Array(5)].map((_, i) => (
+                        <div
+                          key={i}
+                          className={`w-3 h-3 border-[1px] border-white rounded-[3px] ${
+                            i < Math.floor(section.cubeShape)
+                              ? "bg-white"
+                              : i === Math.floor(section.cubeShape) &&
+                                section.cubeShape % 1 !== 0
+                              ? "bg-gradient-to-r from-white to-transparent"
+                              : "bg-transparent"
+                          }`}
+                        ></div>
+                      ))}
+                    </div>
+                  </div>
                   <div className='flex flex-wrap gap-2'>
-                    {skillSections.skills.map((skill, key) => (
+                    {section.skills.map((skill, key) => (
                       <span
                         key={key}
                         className='bg-blue-500/10 text-white py-1 px-3 rounded-full text-sm hover:bg-gray-700 cursor-pointer hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all'
